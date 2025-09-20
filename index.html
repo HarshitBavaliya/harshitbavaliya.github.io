@@ -1,8 +1,272 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Harshit Bavaliya</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harshit Bavaliya - Full Stack Developer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Harshit Bavaliya</h1>
+    <header class="bg-dark text-white text-center p-4">
+        <h1>Harshit Bavaliya</h1>
+        <p>Full Stack Developer</p>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mt-5">
+        <section id="about" class="mb-5">
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <img src="Harshit.png" class="img-fluid rounded-circle mb-4" alt="Harshit Bavaliya">
+                </div>
+                <div class="col-md-8">
+                    <h2>✨ About Me</h2>
+                    <p>Full-stack developer with 5 years of experience leading and developing web applications. Skilled in PHP, React and Node, with a strong understanding of popular frameworks like CodeIgniter and Laravel. Proven ability to manage and motivate teams to deliver high-quality projects. Previously consulted for AJIO, contributing to their technical development efforts.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="mb-5">
+            <h2>🛠️ Skills</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Languages & Frameworks</h4>
+                    <ul class="list-unstyled">
+                        <li><i class="fab fa-php"></i> PHP (CodeIgniter, Laravel)</li>
+                        <li><i class="fab fa-react"></i> JavaScript (React, Node.js, Express.js)</li>
+                        <li><i class="fab fa-java"></i> Java (Spring, Spring Boot)</li>
+                        <li><i class="fab fa-html5"></i> HTML5 & CSS3</li>
+                        <li><i class="fab fa-wordpress"></i> Wordpress</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h4>Tools & Technologies</h4>
+                    <ul class="list-unstyled">
+                        <li><i class="fab fa-git-alt"></i> Git, GitHub, GitLab</li>
+                        <li><i class="fa fa-devops-azure"></i> Azure DevOps</li>
+                        <li><i class="fas fa-database"></i> MySQL, MongoDB</li>
+                        <li><i class="fas fa-project-diagram"></i> Apache Kafka</li>
+                        <li><i class="fas fa-robot"></i> AI Tools (Gemini, Claude)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="mb-5">
+            <h2>🏢 Work Experience</h2>
+            <div class="accordion" id="experienceAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <strong>Software Developer</strong> @ Whitelake Digital (Sep 2025 - Present)
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#experienceAccordion">
+                        <div class="accordion-body">
+                            As a Software Developer at Whitelake Digital, I am actively contributing to diverse projects. My work involves the development of a customer-facing website for a premier residential painting company ('John Neil Painting') and a patented nutritional meal scoring platform ('Thrive 365'). This role allows me to apply my skills to a variety of interesting and challenging applications.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <strong>Senior Developer</strong> @ Suhradam Software Incorporation (Jul 2024 - Sep 2025)
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#experienceAccordion">
+                        <div class="accordion-body">
+                            As a Senior Developer, I was responsible for the end-to-end development of modern web applications. My work included building a news portal ('Gatagam') with React and CodeIgniter, and a health-focused website ('Medicare') using React and Node.js. This role allowed me to utilize my full-stack skills to deliver complete and functional products.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <strong>Web Developer, Branch Head, Development Team Lead</strong> @ Ficuslot Innovation Pvt. Ltd. (Apr 2023 - Jun 2024)
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#experienceAccordion">
+                        <div class="accordion-body">
+                            In my multifaceted role at Ficuslot, I led development teams, managed branch operations, and served as a web developer. My responsibilities included overseeing a WordPress-based e-commerce project ('Gomataseva') and developing the backend for science-focused informational websites ('FSTA' and 'Science Capsule') using Node.js. This position highlighted my abilities in both leadership and hands-on development.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            <strong>Java Developer</strong> @ Aegis Softwares (Aug 2020 - Mar 2023)
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#experienceAccordion">
+                        <div class="accordion-body">
+                            As a Java Developer at Aegis, I contributed to the development of large-scale, enterprise-level applications. I worked on a complex informational website ('Immihelp') using Java and Spring, and also served as a consultant on a major e-commerce platform ('AJIO.COM'), utilizing Spring Boot, Apache Kafka, and Azure DevOps. This role honed my skills in building robust and scalable Java applications.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="mb-5">
+            <h2>🚀 Projects</h2>
+            
+            <h3 class="mt-5">Whitelake Digital</h3>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">John Neil Painting</h5>
+                            <p class="card-text">A customer-facing website for a premier residential painting company.</p>
+                            <a href="https://johnneillpainting.com/" class="btn btn-primary" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Thrive 365</h5>
+                            <p class="card-text">A patented nutritional meal scoring platform designed for those concerned about their blood glucose levels.</p>
+                            <a href="https://thrive365.com/" class="btn btn-primary" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="mt-5">Suhradam Software Incorporation</h3>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Gatagam</h5>
+                            <p class="card-text">A news portal for positive news and information, where I developed both the React-based frontend and the CodeIgniter backend.</p>
+                            <a href="https://gatagam.in/" class="btn btn-primary" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Medicare</h5>
+                            <p class="card-text">A health-related website where I was responsible for both the frontend development with React and the backend development with Node.js.</p>
+                            <a href="https://mdapi.ssinex.in/" class="btn btn-primary" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="mt-5">Ficuslot Innovation</h3>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Gomataseva</h5>
+                            <p class="card-text">An e-commerce website for electronics, developed in WordPress. As the Project Manager, I oversaw the project from conception to completion.</p>
+                            <a href="https://www.gomataseva.org/" class="btn btn-primary" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">FSTA</h5>
+                            <p class="card-text">A science information project by an Indian scientist. I developed the entire backend for this project, including modules in Node.js.</p>
+                            <a href="https://scfrontiers.com/" class="btn btn-primary" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Science Capsule</h5>
+                            <p class="card-text">Another science information project where I was responsible for the entire backend development.</p>
+                            <a href="https://sccapsules.com/" class="btn btn-primary" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="mt-5">Aegis Software</h3>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Immihelp</h5>
+                            <p class="card-text">A dynamic website for US legal immigration information. I worked as a Java and Spring Developer on this project, contributing to its complex features.</p>
+                            <a href="https://www.immihelp.com/" class="btn btn-primary" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">AJIO.COM</h5>
+                            <p class="card-text">A major e-commerce platform for textiles, jewelry, and furniture. I worked as a Java and Spring Developer Consultant on this project, using technologies like Apache Kafka and Azure DevOps.</p>
+                            <a href="https://www.ajio.com/" class="btn btn-primary" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="mb-5">
+            <h2>🎓 Education</h2>
+            <p><strong>Saurashtra University, Rajkot</strong> - Bachelor of Computer Applications (BCA), 2017-2020</p>
+        </section>
+
+        <section id="contact" class="mb-5 text-center">
+            <h2>📫 Contact Me</h2>
+            <p>harshitbavaliya062@gmail.com</p>
+            <a href="https://www.linkedin.com/in/harshit-bavaliya-667b01284/" class="btn btn-secondary" target="_blank">LinkedIn</a>
+            <a href="https://github.com/harshitbavaliya" class="btn btn-secondary" target="_blank">GitHub</a>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center p-3">
+        <p>&copy; 2025 Harshit Bavaliya</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const sections = document.querySelectorAll('section');
+
+        const options = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver(function(entries, observer) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, options);
+
+        sections.forEach(section => {
+            observer.observe(section);
+        });
+    </script>
 </body>
 </html>
